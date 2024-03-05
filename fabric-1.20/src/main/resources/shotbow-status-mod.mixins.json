@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.brqnko.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinChatHud",
+    "MixinClientConnection"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MixinInGameHud"
+  ]
+}
